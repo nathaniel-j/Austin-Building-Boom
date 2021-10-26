@@ -1,11 +1,15 @@
 # Exploring the effects of construction delays from Covid on the Austin housing market
 _This project was put together from the [Issued Construction](https://data.austintexas.gov/Building-and-Development/Issued-Construction-Permits/3syk-w9eu) Permits dataset assembled and maintained by the City of Austin._
 
+![building](apt%20construction.jpeg)
+
 #### When my current apartment lease was up for renewal this October, the market seemed to have changed dramatically from a year ago when buildings were offering large lease signing incentives in order to fill units. At the same time, I noticed an abundance of new construction going on around the city, so I was curious if the market mechanisms that normally keep housing supply in line with demand had been supressed by building delays from supply shortages and personnel regulations during peak Covid pandemic. Further, I wondered when could we expect the supply to get back on track. 
 
 ---
 
 ## Question 1: Has new construction been delayed during the Covid pandemic?
+
+To visualize the aggregated build times for new housing, I used a simple chart showing the number of housing units applied for each year, compared to the number of housing units that are finalized each year. This chart also allows for annual new housing comparison between years, clearly showing huge booms in 1983, 2008, and right now, with busts bottoming out in 1990 and 2010. 
 
 
 
