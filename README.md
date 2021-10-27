@@ -25,7 +25,11 @@ While it is normal to see a large difference between the issued and completed pe
 ### Question 2: When will the housing supply catch up with demand?
 ---
 
-The chart below shows expected completion rates of projects currently in progress based on a k nearest neighbors model. This model helped avoid extreme completion times that were predicted with scalar regression models and shows what we would expect to have seen without Covid delays. Note that this projection line only serves to estimate the completion dates of projects currently under way, and does not serve as an estimate for housing projects that will be completed in 2022 and beyond. To estimate construction for those years would involve making predictions for the units permitted in the future, which very quickly becomes wild speculation and is outside the scope of this project. This is why the line for expected housing units takes a significant drop after 2021. 
+The chart below shows expected completion times for projects currently in progress based on a k nearest neighbors model. This model helped avoid extreme completion times that were predicted with scalar regression models and shows what we would expect to have seen without Covid delays.
+
+<img src="austin_housing_predictions.png" alt="drawing" width="800"/>
+
+Note that this projection line only serves to estimate the completion dates of projects currently under way, and does not serve as an estimate for housing projects that will be completed in 2022 and beyond. To estimate construction for those years would involve making predictions for the units permitted in the future, which very quickly becomes wild speculation and is outside the scope of this project. This is why the line for expected housing units takes a significant drop after 2021. 
 
 <img src="austin_housing_predictions.png" alt="drawing" width="800"/>
 
@@ -34,7 +38,6 @@ While the previous projection line serves as a good baseline for comparison of a
 <img src="austin_housing_predictions.png" alt="drawing" width="800"/>
 
 looking into Austin's apparent housing supply shortage. Click [here](https://github.com/nathaniel-j/Austin-Building-Boom/blob/main/austin_housing_II.ipynb)
-
 
 
 
