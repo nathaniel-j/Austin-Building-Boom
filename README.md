@@ -25,7 +25,11 @@ While it is normal to see a large difference between the issued and completed pe
 ### Question 2: When will the housing supply catch up with demand?
 ---
 
-The chart below shows expected completion rates of projects currently in progress based on a k nearest neighbors model. This model helped avoid extreme completion times that were predicted with scalar regression models and shows what we would expect to have seen without Covid delays.
+The chart below shows expected completion rates of projects currently in progress based on a k nearest neighbors model. This model helped avoid extreme completion times that were predicted with scalar regression models and shows what we would expect to have seen without Covid delays. Note that this projection line only serves to estimate the completion dates of projects currently under way, and does not serve as an estimate for housing projects that will be completed in 2022 and beyond. To estimate construction for those years would involve making predictions for the units permitted in the future, which very quickly becomes wild speculation and is outside the scope of this project. This is why the line for expected housing units takes a significant drop after 2021. 
+
+<img src="austin_housing_predictions.png" alt="drawing" width="800"/>
+
+While the previous projection line serves as a good baseline for comparison of actual housing completion as these projects get finished, it does not provide an adjusted estimate for when housing supply will catch up to demand. To provide a best-fit estimation for the projected completion adjustment, I added between 3 and 24 months to the projections, and found that adding a delay of 10 months does an acceptable job of both reflecting the measured truths for 2019 and 2020, and providing a realistic looking expectation for 2021. 
 
 <img src="austin_housing_predictions.png" alt="drawing" width="800"/>
 
